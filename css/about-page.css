@@ -172,7 +172,7 @@ html,body{
 	}
 	.navigation-ul{
 		flex-direction: column;
-		padding-top: 55px;
+		padding-top: 48px;
 	}
 	.navigation-li{
 		display: flex;
@@ -425,15 +425,6 @@ html,body{
 	.container{
 		padding: 0 30px;
 	}
-	/*.snorkeling{
-    	top: 32%;
-    }
-    .surfing{
-    	top: 39%;
-    }
-    .surfing1{
-    	top: 38%;
-    }*/
 }
 
 @media(max-width: 1050px){
@@ -575,7 +566,7 @@ input[type=submit]:hover {
 	}
 	.navigation1-ul{
 		flex-direction: column;
-		padding-top: 55px;
+		padding-top: 48px;
 	}
 	.navigation1-li{
 		display: flex;
@@ -692,7 +683,7 @@ input[type=submit]:hover {
     .container-wrapper .fotki:last-child{
 	margin-left: 0;
     }
-    .fotki:hover{
+   .fotki:hover{
     	scale:none;
     	transform:none;
     	transition:none;
