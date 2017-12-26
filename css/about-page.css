@@ -172,11 +172,11 @@ html,body{
 	}
 	.navigation-ul{
 		flex-direction: column;
-		padding-top: 48px;
+		padding-top: 25px;
 	}
 	.navigation-li{
 		display: flex;
-		margin-top: 35px;
+		margin-top: 30px;
 	}
 	.maldives-title{
 		font-size:70px;
@@ -566,11 +566,11 @@ input[type=submit]:hover {
 	}
 	.navigation1-ul{
 		flex-direction: column;
-		padding-top: 48px;
+		padding-top: 25px;
 	}
 	.navigation1-li{
 		display: flex;
-		margin-top: 34px;
+		margin-top: 30px;
 	}
 }
 
