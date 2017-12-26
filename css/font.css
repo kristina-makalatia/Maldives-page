@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'BentonSans-Regular';
+  src: url('../font/BentonSans-Regular.eot?#iefix') format('embedded-opentype'), 
+  url('../font/BentonSans-Regular.otf')  format('opentype'),
+  url('../font/BentonSans-Regular.woff') format('woff'),
+  url('../font/BentonSans-Regular.ttf')  format('truetype'), 
+  url('../font/BentonSans-Regular.svg#BentonSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Light';
+  src: url('../font/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),
+   url('../font/HelveticaNeueCyr-Light.otf')  format('opentype'),
+   url('../font/HelveticaNeueCyr-Light.woff') format('woff'),
+   url('../font/HelveticaNeueCyr-Light.ttf')  format('truetype'),
+  url('../font/HelveticaNeueCyr-Light.svg#HelveticaNeueCyr-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Miller-TextRoman';
+  src: url('../font/Miller-TextRoman.eot?#iefix') format('embedded-opentype'),
+    url('../font/Miller-TextRoman.otf')  format('opentype'),
+    url('../font/Miller-TextRoman.woff') format('woff'), 
+    url('../font/Miller-TextRoman.ttf')  format('truetype'), 
+    url('../font/Miller-TextRoman.svg#Miller-TextRoman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

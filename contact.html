@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/about-page.css">
+</head>
+<body>
+<header class="container-fluid">
+    <div class="container header-wrapper flex">
+        <div class="box">
+            <nav class="navigation1 flex">
+                <ul class="navigation1-ul flex">
+                    <li class="navigation1-li">
+                     <a href="home.html" class="navigation1-a"> Home </a>
+                    </li>
+                    <li class="navigation1-li">
+                     <a href="about-page.html" class="navigation1-a"> About </a>
+                    </li>
+                    <li class="navigation1-li">
+                     <a href="resorts.html" class="navigation1-a"> Hotels & Resorts </a>
+                    </li>
+                    <li class="navigation1-li">
+                     <a href="activities.html" class="navigation1-a"> Activities </a>
+                    </li>
+                    <li class="navigation1-li">
+                     <a href="contact.html" class="navigation1-a"> Contact </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger-icon">
+              <span class="arrow"></span>
+              <span class="arrow"></span>
+              <span class="arrow"></span>
+            </div>
+        </div>
+    </div>
+</header> 
+<section class="container-fluid">
+    <div class="container">
+        <div class="meet">
+            <h1 class="contact-text"> Have a Question? </h1>
+            <h1 class="contact-text"> Feel free to ask. </h1>
+        </div>
+    </div>
+</section>
+<section class="container-fluid">
+        <div class="container">
+            <div class="container1">
+         <!--   <form action="/action_page.php"> -->
+          <form id="contact-form">
+           <label for="fname" style="color: #fff">First Name</label>
+           <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+           <label for="lname" style="color: #fff">Last Name</label>
+           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+           <label for="subject" style="color: #fff"> Message</label>
+           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+           <input type="submit" id="submitBtn" onclick="submitClicked()" value="Submit">
+
+          </form>
+       </div>
+   </div>
+</section>
+<footer>
+    <div class="container">
+      <div class="footex-box"> 
+           <div class="boxing flex"> 
+         <div class="footer-3"> Copyright &copy; 2017 My Website. </div>
+          <div class="social"> 
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.youtube.com/results?search_query=maldives" class="fa fa-youtube"> </a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+           </div>
+           </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<p id="demo"></p>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
